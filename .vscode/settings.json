@@ -1,0 +1,23 @@
+{
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.runAutomatically": true,
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/debug/compile_commands.json",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.clang_format_style": "file",
+  "cmake.configureOnOpen": true,
+  "cmake.useCMakePresets": "always",
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "array": "cpp",
+    "atomic": "cpp",
+    "condition_variable": "cpp",
+    "deque": "cpp",
+    "future": "cpp",
+    "mutex": "cpp",
+    "optional": "cpp",
+    "span": "cpp",
+    "thread": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp"
+  }
+}
