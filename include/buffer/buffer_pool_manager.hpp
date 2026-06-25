@@ -12,11 +12,13 @@
 #include "storage/disk_scheduler.hpp"
 #include "storage/frame_header.hpp"
 #include "storage/page_allocator.hpp"
+#include "storage/page_guard.hpp"
 
 namespace im110 {
 
-class ReadPageGuard;
-class WritePageGuard;
+// this donesnt work we need full include
+// class ReadPageGuard;
+// class WritePageGuard;
 
 class BufferPoolManager {
  public:
